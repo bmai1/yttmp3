@@ -26,7 +26,6 @@ def convert_youtube_url(url):
     # result of success
     print(yt.title + " has been successfully downloaded.")
 
-
 if __name__ == '__main__':
     # Check if a URL argument is provided
     if len(sys.argv) > 1:
